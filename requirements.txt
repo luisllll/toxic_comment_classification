@@ -1,0 +1,31 @@
+# Core ML
+#numpy==1.24.3
+#pandas==1.5.3
+#scikit-learn==1.2.2
+
+# Deep Learning & Transformers
+torch==2.0.1
+transformers==4.35.0
+datasets==2.14.0
+accelerate==0.24.0
+tokenizers==0.14.1
+
+# Multi-label specific
+scikit-multilearn==0.2.0
+#iterstrat==0.1.7  # For stratified multi-label splits
+
+# Experiment tracking
+mlflow==2.8.0
+optuna==3.4.0
+wandb==0.15.12  # Optional alternative
+
+# Evaluation & Visualization
+seaborn==0.12.2
+matplotlib==3.7.1
+plotly==5.17.0
+
+# Utils
+tqdm==4.66.1
+pyyaml==6.0.1
+python-dotenv==1.0.0
+kaggle==1.5.16
