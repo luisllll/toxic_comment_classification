@@ -63,9 +63,9 @@ db.sqlite3-journal
 
 # Flask stuff:
 instance/
-.webassets-cache
+.webaskets-cache
 
-# Scrapy stuff:
+# Scrapy stuff
 .scrapy
 
 # Sphinx documentation
@@ -206,9 +206,20 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-
-
+# Project specific data and models
 data/
 mlruns/
-.csv
 models/pretrained/*
+
+# Toxic Comment Classification - Large files
+*.csv
+*.pth
+*.safetensors
+*.zip
+*.pkl
+*.h5
+*.model
+*.bin
+src/data/raw/
+checkpoints/
+wandb/
